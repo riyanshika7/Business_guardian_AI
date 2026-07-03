@@ -1,0 +1,11 @@
+event_id,event_name,event_type,due_date,description,responsible_party,status,recurrence,created_at
+CE-001,GST Filing Q2 FY26,tax,2026-07-20,Quarterly Goods & Services Tax return filing for Q2 FY26,Accountant,pending,quarterly,2026-06-01T09:00:00Z
+CE-002,Trade License Renewal,license,2026-07-05,Annual municipal trade license renewal for retail premises,Owner,pending,annual,2026-05-01T09:00:00Z
+CE-003,Fire Safety Inspection Certificate,regulatory,2026-06-15,Annual fire safety inspection and certificate renewal,Store Manager,overdue,annual,2026-05-01T09:00:00Z
+CE-004,Business Liability Insurance Renewal,insurance,2026-08-10,Annual renewal of business liability insurance policy,Owner,pending,annual,2026-06-01T09:00:00Z
+CE-005,BrightTech Imports Supply Contract Renewal,contract_renewal,2026-07-31,Renewal negotiation deadline for primary electronics supplier contract,Owner,pending,one_time,2026-05-15T09:00:00Z
+CE-006,Employee PF/ESI Filing,tax,2026-07-15,Monthly provident fund and employee state insurance contribution filing,Accountant,pending,monthly,2026-06-15T09:00:00Z
+CE-007,Fire Extinguisher Servicing,other,2026-06-30,Annual servicing and recharge of in-store fire extinguishers,Store Manager,pending,annual,2026-05-20T09:00:00Z
+CE-008,Annual Health & Safety Audit,regulatory,2026-09-01,Scheduled annual workplace health and safety compliance audit,Compliance Officer,pending,annual,2026-06-01T09:00:00Z
+CE-009,Shop Establishment License Renewal,license,2026-05-31,Renewal of shop and establishment act registration license,Owner,overdue,annual,2026-04-15T09:00:00Z
+CE-010,GST Filing Q1 FY26,tax,2026-04-20,Quarterly Goods & Services Tax return filing for Q1 FY26,Accountant,completed,quarterly,2026-03-01T09:00:00Z

@@ -1,0 +1,21 @@
+inventory_id,product_id,current_stock,warehouse_location,last_updated,recorded_by
+INV-001,PROD-001,49,Main Store - Aisle 3,2026-06-27T11:14:00Z,google_sheets_mcp
+INV-002,PROD-002,4,Online Fulfillment Shelf,2026-06-27T09:37:00Z,manual
+INV-003,PROD-003,32,Main Store - Aisle 1,2026-06-27T11:14:00Z,google_sheets_mcp
+INV-004,PROD-004,60,Online Fulfillment Shelf,2026-06-26T14:14:00Z,manual
+INV-005,PROD-005,3,Main Store - Aisle 3,2026-06-23T08:48:00Z,google_sheets_mcp
+INV-006,PROD-006,74,Main Store - Aisle 3,2026-06-24T12:09:00Z,google_sheets_mcp
+INV-007,PROD-007,2,Main Store - Aisle 1,2026-06-25T09:24:00Z,google_sheets_mcp
+INV-008,PROD-008,42,Online Fulfillment Shelf,2026-06-25T12:51:00Z,google_sheets_mcp
+INV-009,PROD-009,9,Online Fulfillment Shelf,2026-06-24T09:59:00Z,manual
+INV-010,PROD-010,30,Main Store - Aisle 3,2026-06-23T18:39:00Z,manual
+INV-011,PROD-011,118,Main Store - Aisle 1,2026-06-26T08:42:00Z,google_sheets_mcp
+INV-012,PROD-012,77,Main Store - Aisle 2,2026-06-27T09:24:00Z,manual
+INV-013,PROD-013,6,Main Store - Aisle 3,2026-06-24T10:23:00Z,manual
+INV-014,PROD-014,23,Main Store - Aisle 1,2026-06-25T17:40:00Z,google_sheets_mcp
+INV-015,PROD-015,64,Main Store - Aisle 2,2026-06-26T15:24:00Z,manual
+INV-016,PROD-016,63,Main Store - Aisle 1,2026-06-25T11:52:00Z,google_sheets_mcp
+INV-017,PROD-017,45,Main Store - Aisle 3,2026-06-24T09:13:00Z,manual
+INV-018,PROD-018,5,Back Storeroom,2026-06-26T14:56:00Z,manual
+INV-019,PROD-019,39,Main Store - Aisle 2,2026-06-25T11:47:00Z,manual
+INV-020,PROD-020,62,Online Fulfillment Shelf,2026-06-24T14:23:00Z,google_sheets_mcp

@@ -1,0 +1,44 @@
+C:\Users\riyan\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\aiplatform\models.py:52: FutureWarning: Support for google-cloud-storage < 3.0.0 will be removed in a future version of google-cloud-aiplatform. Please upgrade to google-cloud-storage >= 3.0.0.
+  from google.cloud.aiplatform.utils import gcs_utils
+INFO:     Started server process [21268]
+INFO:     Waiting for application startup.
+Starting Business Guardian AI backend...
+Database schema initialized.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8005 (Press CTRL+C to quit)
+Pipeline started — run_id=34bc3713-828e-4abb-863f-06e0be6f8aa4 business_id=BIZ-E2E-TEST
+[Workflow mcp_workflow] Running node: adk_mcp_layer
+[ADK NODE] Starting adk_mcp_layer execution
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/@modelcontextprotocol%2fserver-web-search - Not found
+npm error 404
+npm error 404  The requested resource '@modelcontextprotocol/server-web-search@*' could not be found or you do not have permission to access it.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: C:\Users\riyan\AppData\Local\npm-cache\_logs\2026-06-29T06_47_33_686Z-debug-0.log
+Connection to Search MCP failed or timed out: unhandled errors in a TaskGroup (1 sub-exception)
+Successfully fetched 0 articles from search MCP.
+[Workflow phase_1_workflow] Running node: adk_run_parallel_agents
+[ADK NODE] Starting adk_run_parallel_agents execution
+AFC is enabled with max remote calls: 10.
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+Gemini API call failed for Supplier Agent, using fallback: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+Gemini API call failed for Finance Agent, using rule-based fallback: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+[Workflow phase_1_workflow] Running node: adk_run_risk_tracker
+[ADK NODE] Starting adk_run_risk_tracker execution
+[Workflow phase_1_workflow] Running node: adk_run_strategy
+[ADK NODE] Starting adk_run_strategy execution
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+Gemini API call failed for Strategy Agent, using fallback: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+[Workflow phase_1_workflow] Running node: adk_run_communication
+[ADK NODE] Starting adk_run_communication execution
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+Gemini API call failed for Communication Agent report summaries, using fallback: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+HITL approval gate opened — approval_id=b7e8fe59-b064-48ea-838f-a6f5dc368453 run_id=34bc3713-828e-4abb-863f-06e0be6f8aa4
+HITL pause — run_id=34bc3713-828e-4abb-863f-06e0be6f8aa4 cached for approval
+INFO:     127.0.0.1:52365 - "POST /analyze HTTP/1.1" 200 OK

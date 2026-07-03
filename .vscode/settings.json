@@ -1,0 +1,30 @@
+{
+    // Python test discovery — use pytest
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "tests",
+        "--tb=short"
+    ],
+
+    // Always run from the workspace root so imports resolve
+    "python.terminal.executeInFileDir": false,
+
+    // Env vars — load .env automatically in the integrated terminal
+    "python.envFile": "${workspaceFolder}/.env",
+
+    // Automatically set PYTHONPATH in VS Code terminals so that absolute imports
+    // resolve correctly when running nested python scripts directly.
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+
+    // Recommended: run individual test files via pytest, not python directly
+    // Use Ctrl+Shift+P → "Python: Run Tests" or the Testing sidebar
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        ".pytest_cache": true
+    }
+}

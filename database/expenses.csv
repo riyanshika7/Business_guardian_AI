@@ -1,0 +1,40 @@
+expense_id,expense_category,amount,description,expense_date,vendor,recorded_at
+EXP-0001,rent,1500.0,Monthly store rent,2026-01-01,Crestview Properties LLP,2026-01-01T13:43:00Z
+EXP-0002,salaries,3200.0,Staff salaries (2 employees),2026-01-03,Payroll - Internal,2026-01-03T15:48:00Z
+EXP-0003,utilities,196.3,Electricity & water,2026-01-05,City Power & Water Board,2026-01-05T17:50:00Z
+EXP-0004,inventory,1624.83,Stock replenishment order,2026-01-08,HomeStyle Wholesale Pvt Ltd,2026-01-08T14:35:00Z
+EXP-0005,marketing,247.63,Social media ad campaign,2026-01-13,AdReach Marketing Agency,2026-01-13T13:19:00Z
+EXP-0006,rent,1500.0,Monthly store rent,2026-02-01,Crestview Properties LLP,2026-02-01T14:49:00Z
+EXP-0007,salaries,3200.0,Staff salaries (2 employees),2026-02-03,Payroll - Internal,2026-02-03T15:47:00Z
+EXP-0008,utilities,191.05,Electricity & water,2026-02-05,City Power & Water Board,2026-02-05T10:47:00Z
+EXP-0009,inventory,1198.7,Stock replenishment order,2026-02-08,HomeStyle Wholesale Pvt Ltd,2026-02-08T10:13:00Z
+EXP-0010,marketing,236.92,Social media ad campaign,2026-02-13,AdReach Marketing Agency,2026-02-13T14:51:00Z
+EXP-0011,insurance,950.0,Quarterly business liability insurance premium,2026-02-15,SecureGuard Insurance Co.,2026-02-15T17:58:00Z
+EXP-0012,rent,1500.0,Monthly store rent,2026-03-01,Crestview Properties LLP,2026-03-01T17:39:00Z
+EXP-0013,salaries,3200.0,Staff salaries (2 employees),2026-03-03,Payroll - Internal,2026-03-03T09:10:00Z
+EXP-0014,maintenance,145.0,Store signage and lighting repair,2026-03-03,BrightFix Electricians,2026-03-03T11:26:00Z
+EXP-0015,utilities,211.13,Electricity & water,2026-03-05,City Power & Water Board,2026-03-05T09:51:00Z
+EXP-0016,inventory,1018.42,Stock replenishment order,2026-03-08,HomeStyle Wholesale Pvt Ltd,2026-03-08T16:59:00Z
+EXP-0017,marketing,258.06,Social media ad campaign,2026-03-13,AdReach Marketing Agency,2026-03-13T10:04:00Z
+EXP-0018,maintenance,310.0,POS system repair and servicing,2026-03-20,TechFix IT Services,2026-03-20T13:14:00Z
+EXP-0019,rent,1500.0,Monthly store rent,2026-04-01,Crestview Properties LLP,2026-04-01T13:14:00Z
+EXP-0020,salaries,3200.0,Staff salaries (2 employees),2026-04-03,Payroll - Internal,2026-04-03T14:05:00Z
+EXP-0021,utilities,228.72,Electricity & water,2026-04-05,City Power & Water Board,2026-04-05T15:59:00Z
+EXP-0022,shipping,275.5,Courier charges for online orders,2026-04-05,QuickShip Logistics,2026-04-05T12:29:00Z
+EXP-0023,inventory,2179.78,Stock replenishment order,2026-04-08,OfficeMax Distributors,2026-04-08T09:49:00Z
+EXP-0024,marketing,308.65,Social media ad campaign,2026-04-13,AdReach Marketing Agency,2026-04-13T16:28:00Z
+EXP-0025,rent,1500.0,Monthly store rent,2026-05-01,Crestview Properties LLP,2026-05-01T09:12:00Z
+EXP-0026,salaries,3200.0,Staff salaries (2 employees),2026-05-03,Payroll - Internal,2026-05-03T17:18:00Z
+EXP-0027,utilities,195.58,Electricity & water,2026-05-05,City Power & Water Board,2026-05-05T17:33:00Z
+EXP-0028,inventory,1807.98,Stock replenishment order,2026-05-08,HomeStyle Wholesale Pvt Ltd,2026-05-08T09:23:00Z
+EXP-0029,marketing,175.03,Social media ad campaign,2026-05-13,AdReach Marketing Agency,2026-05-13T09:10:00Z
+EXP-0030,insurance,950.0,Quarterly business liability insurance premium,2026-05-15,SecureGuard Insurance Co.,2026-05-15T14:22:00Z
+EXP-0031,shipping,312.75,Courier charges for online orders,2026-05-28,QuickShip Logistics,2026-05-28T15:36:00Z
+EXP-0032,rent,1500.0,Monthly store rent,2026-06-01,Crestview Properties LLP,2026-06-01T10:17:00Z
+EXP-0033,salaries,3200.0,Staff salaries (2 employees),2026-06-03,Payroll - Internal,2026-06-03T15:22:00Z
+EXP-0034,utilities,233.57,Electricity & water,2026-06-05,City Power & Water Board,2026-06-05T15:37:00Z
+EXP-0035,inventory,1160.4,Stock replenishment order,2026-06-08,BrightTech Imports Ltd,2026-06-08T10:58:00Z
+EXP-0036,software,89.0,POS & inventory software subscription,2026-06-10,RetailFlow Software Inc.,2026-06-10T09:16:00Z
+EXP-0037,marketing,140.74,Social media ad campaign,2026-06-13,AdReach Marketing Agency,2026-06-13T13:46:00Z
+EXP-0038,office_supplies,64.3,Printer paper and ink cartridges,2026-06-18,OfficeMax Distributors,2026-06-18T17:06:00Z
+EXP-0039,miscellaneous,58.0,Cleaning service - deep clean,2026-06-22,SparkleClean Supplies,2026-06-22T17:04:00Z

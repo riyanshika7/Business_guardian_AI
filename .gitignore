@@ -1,0 +1,32 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files (sensitive credentials)
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases
+*.db
+*.sqlite3
+
+# Node.js (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# OS generated files
+.DS_Store
+Thumbs.db

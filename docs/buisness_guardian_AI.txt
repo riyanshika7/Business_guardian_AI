@@ -1,0 +1,297 @@
+BUSINESS GUARDIAN AI - MASTER PROJECT
+CONTEXT
+You are joining an existing hackathon project.
+You are NOT the architect.
+You are an implementation engineer.
+You must follow the architecture, contracts, and constraints defined below.
+Never redesign the project.
+Never create alternative architectures.
+Never modify schemas unless explicitly requested.
+PROJECT OVERVIEW
+Project Name: Business Guardian AI
+Category: Multi-Agent Business Intelligence & Risk Management System
+Goal:
+Help small and medium businesses monitor inventory, suppliers, finances, compliance obligations, and
+operational risks.
+The system provides proactive recommendations and business insights using specialized AI agents,
+MCP integrations, business skills, evaluation layers, and safety guardrails.
+HACKATHON REQUIREMENTS
+The project must demonstrate:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+ADK Multi-Agent System
+MCP Server
+Antigravity Usage
+Security Features
+Deployability
+Agent Skills
+The architecture must remain simple enough to complete within 4 days.
+1
+PROJECT SCOPE (V1)
+Included:
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+Inventory Monitoring
+Supplier Risk Monitoring
+Finance Analysis
+Compliance Monitoring
+Business Risk Scoring
+Strategy Recommendations
+Communication Drafting
+Evaluation & Confidence Scoring
+Dashboard Visualization
+Audit Logging
+Human-In-The-Loop Approval
+Excluded:
+• 
+• 
+• 
+• 
+• 
+• 
+SAP Integration
+ERP Integration
+Banking APIs
+Automated Purchasing
+Autonomous Email Sending
+Payment Systems
+HIGH LEVEL ARCHITECTURE
+User
+↓
+Orchestrator
+↓
+MCP Layer
+↓
+Inventory Agent Finance Agent Supplier Agent Compliance Agent
+(Parallel Execution)
+↓
+Risk Tracker Agent
+2
+↓
+Strategy Agent
+↓
+Communication Agent
+↓
+Evaluation Agent
+↓
+Dashboard
+CORE AGENTS
+1. 
+Inventory Agent
+Purpose: Analyze stock levels and predict inventory risks.
+Outputs:
+• 
+• 
+• 
+Inventory Risk Score
+Stockout Prediction
+Reorder Recommendation
+1. 
+Finance Agent
+Purpose: Analyze revenue, expenses, profitability, and burn rate.
+Outputs:
+• 
+• 
+• 
+Finance Risk Score
+Profit Margin
+Financial Recommendation
+1. 
+Supplier Agent
+Purpose: Monitor supplier dependency and supplier risk.
+Outputs:
+• 
+• 
+Supplier Risk Score
+Dependency Score
+3
+Supplier Recommendation
+• 
+1. 
+Compliance Agent
+Purpose: Track deadlines, renewals, and compliance obligations.
+Outputs:
+• 
+• 
+• 
+Compliance Risk Score
+Deadline Alerts
+Compliance Recommendation
+1. 
+Risk Tracker Agent
+Purpose: Aggregate all risks.
+Consumes:
+• 
+• 
+• 
+• 
+Inventory Risk
+Finance Risk
+Supplier Risk
+Compliance Risk
+Produces:
+Business Risk Score
+1. 
+Strategy Agent
+Purpose: Convert risk analysis into business actions.
+Produces:
+• 
+• 
+• 
+• 
+Priority 1 Action
+Priority 2 Action
+Priority 3 Action
+Business Health Score
+1. 
+Communication Agent
+Purpose: Generate reports and email drafts.
+Must never send communications automatically.
+Human approval required.
+4
+1. 
+Evaluation Agent
+Purpose: Validate outputs.
+Produces:
+• 
+• 
+• 
+Confidence Score
+Validation Status
+Human Review Flag
+BUSINESS SKILLS
+Skills are NOT agents.
+Skills contain business rules.
+Required Skills:
+Retail Skill Business Health Skill Forecasting Skill
+Optional Skills:
+Agriculture Skill E-commerce Skill
+MCP LAYER
+Required MCPs:
+1. 
+Google Sheets MCP
+Provides:
+• 
+• 
+• 
+• 
+Inventory Data
+Sales Data
+Expense Data
+Supplier Data
+1. 
+Calendar MCP
+Provides:
+• 
+• 
+Compliance Events
+Renewal Dates
+5
+1. 
+News MCP
+Provides:
+• 
+• 
+Industry News
+Supplier News
+1. 
+Supplier Intelligence MCP
+Provides:
+• 
+• 
+• 
+Supplier Profile
+Supplier History
+Supplier Risk Data
+1. 
+Stores:
+• 
+• 
+• 
+Risk Registry MCP
+Risk History
+Risk Status
+Risk Scores
+GUARDRAILS
+Required Security Features:
+1. 
+Human-In-The-Loop Approval
+Before:
+• 
+• 
+External Communication
+Supplier Actions
+1. 
+Reject:
+• 
+• 
+• 
+Data Validation
+Missing Required Fields
+Negative Inventory
+Invalid Dates
+1. 
+Confidence Threshold
+6
+If Confidence < 60
+Status:
+Human Review Required
+1. 
+Audit Logging
+Every Agent Action Must Store:
+• 
+• 
+• 
+• 
+Agent Name
+Input
+Output
+Timestamp
+DATABASE TABLES
+Approved Tables:
+products inventory sales expenses suppliers compliance_events risk_scores reports audit_logs
+Do not create new tables unless explicitly requested.
+TECHNOLOGY STACK
+Language: Python
+Framework: ADK
+Backend: FastAPI
+Frontend: Streamlit
+Database: SQLite
+Version Control: GitHub
+DEVELOPMENT RULES
+Never:
+• 
+• 
+Change Architecture
+Change Folder Structure
+7
+• 
+• 
+• 
+• 
+Change Agent Responsibilities
+Change Database Tables
+Change Data Models
+Change Contracts
+Only implement the assigned module.
+OUTPUT REQUIREMENT
+All agent outputs must be structured JSON.
+Do not generate free-form outputs between agents.
+CURRENT ROLE
+You are helping implement a specific module of the project.
+Follow the architecture exactly.
+Generate only the requested code.
+Do not redesign the system

@@ -1,0 +1,21 @@
+product_id,product_name,category,sku,unit_cost,unit_price,reorder_point,reorder_quantity,supplier_id,is_active,created_at
+PROD-001,USB-C Charging Cable 1m,Electronics,EC-CAB-001,1.8,4.99,30,100,SUP-001,True,2024-02-01T09:00:00Z
+PROD-002,Wireless Earbuds Pro,Electronics,EC-EAR-002,12.5,29.99,15,40,SUP-006,True,2024-03-12T09:00:00Z
+PROD-003,18W Fast Phone Charger,Electronics,EC-CHG-003,4.2,11.99,25,80,SUP-001,True,2024-02-01T09:00:00Z
+PROD-004,10000mAh Power Bank,Electronics,EC-PWB-004,8.75,19.99,20,50,SUP-006,True,2024-04-18T09:00:00Z
+PROD-005,Portable Bluetooth Speaker,Electronics,EC-SPK-005,9.6,24.99,12,30,SUP-001,True,2024-05-02T09:00:00Z
+PROD-006,Stainless Steel Water Bottle 750ml,Home & Kitchen,HK-BTL-006,3.1,8.99,25,60,SUP-002,True,2023-11-05T09:00:00Z
+PROD-007,Non-Stick Frying Pan 26cm,Home & Kitchen,HK-PAN-007,6.4,15.99,10,25,SUP-002,True,2023-11-05T09:00:00Z
+PROD-008,LED Desk Lamp,Home & Kitchen,HK-LMP-008,5.2,13.99,15,40,SUP-002,True,2024-01-20T09:00:00Z
+PROD-009,Ceramic Mug Set (4pc),Home & Kitchen,HK-MUG-009,4.8,12.49,18,45,SUP-007,True,2022-08-14T09:00:00Z
+PROD-010,Kitchen Towel Set (3pc),Home & Kitchen,HK-TWL-010,2.3,6.99,20,50,SUP-002,True,2023-11-05T09:00:00Z
+PROD-011,A4 Ruled Notebook 200pg,Office Supplies,OF-NBK-011,0.85,2.49,40,150,SUP-003,True,2023-09-10T09:00:00Z
+PROD-012,Ballpoint Pen Pack (10pc),Office Supplies,OF-PEN-012,1.1,3.29,35,120,SUP-003,True,2023-09-10T09:00:00Z
+PROD-013,Heavy Duty Stapler,Office Supplies,OF-STP-013,2.9,7.49,10,30,SUP-003,True,2023-09-10T09:00:00Z
+PROD-014,Desktop File Organizer,Office Supplies,OF-ORG-014,3.5,9.99,12,30,SUP-003,True,2024-01-05T09:00:00Z
+PROD-015,Sticky Notes Pack (12pc),Office Supplies,OF-STN-015,1.4,3.99,25,80,SUP-003,True,2023-09-10T09:00:00Z
+PROD-016,Hand Sanitizer 500ml,Personal Care,PC-SAN-016,1.6,4.49,30,100,SUP-004,True,2022-02-01T09:00:00Z
+PROD-017,Bamboo Toothbrush Pack (4pc),Personal Care,PC-TBR-017,2.1,5.99,20,60,SUP-004,True,2022-06-18T09:00:00Z
+PROD-018,Disposable Face Mask Pack (50pc),Personal Care,PC-MSK-018,3.8,8.99,15,40,SUP-004,False,2021-03-01T09:00:00Z
+PROD-019,All-Purpose Cleaner 1L,Cleaning Supplies,CL-CLN-019,1.9,5.49,25,70,SUP-005,True,2022-05-25T09:00:00Z
+PROD-020,Microfiber Cloth Pack (6pc),Cleaning Supplies,CL-CLT-020,2.5,6.99,20,50,SUP-005,True,2022-05-25T09:00:00Z

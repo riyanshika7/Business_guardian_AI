@@ -1,0 +1,11 @@
+C:\Users\riyan\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\aiplatform\models.py:52: FutureWarning: Support for google-cloud-storage < 3.0.0 will be removed in a future version of google-cloud-aiplatform. Please upgrade to google-cloud-storage >= 3.0.0.
+  from google.cloud.aiplatform.utils import gcs_utils
+INFO:     Started server process [23012]
+INFO:     Waiting for application startup.
+Starting Business Guardian AI backend...
+Database schema initialized.
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+Shutting down Business Guardian AI backend...
+INFO:     Application shutdown complete.
