@@ -87,7 +87,7 @@ Our complete hackathon presentation explaining the problem, solution, architectu
 **📄 Presentation Slides**
 
 ```
-https://drive.google.com/YOUR_PRESENTATION_LINK
+https://canva.link/89r5o0wtxf0as4u
 ```
 
 ---
