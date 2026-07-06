@@ -89,7 +89,7 @@ Our complete hackathon presentation explaining the problem, solution, architectu
 ```
 https://canva.link/89r5o0wtxf0as4u
 ```
-
+[frontend](https://business-guardian-ai-frontend.onrender.com/)
 ---
 
 # 🌍 The Challenge
