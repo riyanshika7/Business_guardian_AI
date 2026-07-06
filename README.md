@@ -75,7 +75,7 @@ A complete walkthrough of Business Guardian AI, including system architecture, d
 **▶️ Demo Video**
 
 ```
-[YT_VIDEO_LINK](https://youtu.be/7lRSV4bhjNs?si=Sz5_z4ao-4SL09kq)
+(https://youtu.be/7lRSV4bhjNs?si=Sz5_z4ao-4SL09kq)
 ```
 
 ---
