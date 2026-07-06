@@ -38,7 +38,7 @@ Designed around **Google ADK's multi-agent orchestration**, Business Guardian AI
 
 ## 🏠 Business Overview Dashboard
 
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard](https://github.com/pushkarpradhan-debug/Business_guardian_AI_/blob/main/images/Screenshot%202026-07-05%20203412.png)
 
 The central dashboard provides an at-a-glance view of overall business health, operational status, current risks, and AI-generated recommendations, allowing business owners to understand their organization's condition within seconds.
 
