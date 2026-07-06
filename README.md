@@ -91,7 +91,7 @@ https://canva.link/89r5o0wtxf0as4u
 ```
 # Frontend and Backend of project
 
-** Working project frontend link**
+ Working project frontend link
 ```
 https://business-guardian-ai-frontend.onrender.com/
 ```
