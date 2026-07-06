@@ -276,7 +276,9 @@ business_guardian_ai/
 │   └── evaluation_agent.py
 │
 ├── orchestrator/
-│   └── workflow.py
+│   ├── orchestrator.py           # Core execution engine
+│   ├── state_manager.py          # Shared context and memory state
+│   └── workflow.py               # Google ADK graph and pipeline definitions
 │
 ├── mcp_servers/
 │   ├── sheets_mcp.py
