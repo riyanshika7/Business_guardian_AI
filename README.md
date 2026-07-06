@@ -408,10 +408,10 @@ Although Business Guardian AI already delivers comprehensive operational intelli
 
 | Name | Role |
 |------|------|
-| Your Name | AI Engineering |
-| Member 2 | Backend Development |
-| Member 3 | Frontend Development |
-| Member 4 | Research & Presentation |
+| Pushkar | Team Lead, orchestration, backend architecture, and Guardrails |
+| Alina | Data models, MCP layer integration and data integration  |
+| Riyanshika | AI agent developer, Google ADK workflow design and debugging  |
+| Yash | Frontend Developer, Skills implementor and UI/UX designer |
 
 ---
 
